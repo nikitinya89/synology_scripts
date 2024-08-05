@@ -8,11 +8,11 @@ echo "Enter Folder Path ( use \\\ for \\ ):"
 read path
 path2=$(echo "$path" | sed 's/\\/\//g')
 
-#desc_folder="\\\nas.semat.ru\\${path} (Read Folder Only)"
-desc_readonly="\\\nas.semat.ru\\${path} (Read Only)"
-desc_modify="\\\nas.semat.ru\\${path} (Modify)"
-desc_fullcontrol="\\\nas.semat.ru\\${path} (Full Control)"
-desc_deny="\\\nas.semat.ru\\${path} (Deny)"
+#desc_folder="\\\YOUR_ADDRESS\\${path} (Read Folder Only)"
+desc_readonly="\\\YOUR_ADDRESS\\${path} (Read Only)"
+desc_modify="\\\YOUR_ADDRESS\\${path} (Modify)"
+desc_fullcontrol="\\\YOUR_ADDRESS\\${path} (Full Control)"
+desc_deny="\\\YOUR_ADDRESS\\${path} (Deny)"
 
 #synogroup --add "$group"_Folder
 #synogroup --descset "$group"_Folder "$desc_folder"
